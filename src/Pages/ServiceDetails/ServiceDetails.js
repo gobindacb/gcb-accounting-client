@@ -1,10 +1,12 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import AllRev from '../AllRev/AllRev';
 
 const ServiceDetails = () => {
     const { _id, price, ratings, img, title, description } = useLoaderData();
     const { user } = useContext(AuthContext);
+    const [allReviews, setAllReviews] = useState([]);
 
     const handlePlaceReview = event => {
         event.preventDefault();
@@ -43,6 +45,12 @@ const ServiceDetails = () => {
             .catch(er => console.error(er));
 
     }
+    useEffect(() => {
+        fetch(`https://gcb-accounting-server.vercel.app/reviews?email=${user?.email}`)
+            .then(res => res.json())
+            .then(data => setAllReviews(data))
+
+    })
 
     return (
         <div>
@@ -63,6 +71,12 @@ const ServiceDetails = () => {
                     <input className='btn btn-warning w-full font-bold' type="submit" value="Give Your Review" />
                 </div>
             </form>
+            {
+                allReviews.map(rvw => <AllRev
+                    key={rvw._id}
+                    rvw={rvw}
+                ></AllRev>)
+            }
         </div>
     );
 };

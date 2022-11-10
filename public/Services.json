@@ -1,0 +1,158 @@
+[
+    {
+        "service_id": "04",
+        "title": "Virtual CFO",
+        "img": "https://www.freshbooks.com/wp-content/uploads/virtual-cfo.jpg",
+        "ratings": "4",
+        "price": "2500.00",
+        "description": "A virtual CFO provides the same services but since the common clientele of a virtual CFO are small businesses and startups, there are certain more services that are expected of them. Services offered by a virtual CFO often follow the financial pyramid of needs. In the basic level, a virtual CFO is expected to be the bookkeeper of the client and has to take responsibility for the accuracy of the account books and interpret the financial information from the accounting data to the client. They make take responsibility for executing or overseeing the reporting process. On the more strategic side, they are the financial and strategic sparring partner from the CEO. They are also responsible for suggesting measures to control expenditure and acquire capital at low cost.",
+        "facility": [
+            {
+                "name": "Accounting & Bookkeeping Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "05",
+        "title": "TAX Preparation",
+        "img": "https://s3-ap-southeast-1.amazonaws.com/assets-powerstores-com/data/org/22038/media/img/source/edit/2310193_edit.jpg",
+        "ratings": "5",
+        "price": "1200.00",
+        "description": "GCB Accounting is a well-known name in tax preparation with the size and reliability to help it win our top spot. In addition to doing your taxes yourself with H&R Block software, the company offers three full-service tax preparation plans. For for the period of May 1, 2019 through July 17, 2020, GCB Accounting assisted in preparing 21.2 million tax returns, or about one in every seven tax returns in the United States. You can have your taxes done either at one of 11,000 H&R Block retail locations or through an online service launched in January 2021.",
+        "facility": [
+            {
+                "name": "Accounting & Bookkeeping Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "01",
+        "title": "Quickbooks Service",
+        "img": "https://www.fourlane.com/wp-content/uploads/2021/02/laptop-computer-displaying-logo-of-quickbooks.jpg",
+        "ratings": "5",
+        "price": "1400.00",
+        "description": "Enterprise comes with project-costing features specifically designed to help professional service firms track projections to actual results. You can track expenses in real time and react quickly if they run higher than expected. Accurate data will help you maintain and improve project profits. Get the information you need with customizable reports bundled for professional services, or create your own with Advanced Reporting. Drill down into account details to analyze missed revenue opportunities and identify your most profitable clients and team members.",
+        "facility": [
+            {
+                "name": "Accounting & Bookkeeping Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "02",
+        "title": "Payroll Service",
+        "img": "https://media.istockphoto.com/id/1179949911/photo/payroll-work-opportunities-finance-and-insurance-concept.jpg?s=612x612&w=0&k=20&c=EC2FcOd2V9Yozn2hCaP7kEWbcpY4VqmutYdK5d0nb8g=",
+        "ratings": "5",
+        "price": "1500.00",
+        "description": "GCB Accounting is a individual service provider that either assists with or assumes all aspects of payroll on behalf of another business. This arrangement is often beneficial for employers who value their time and want to ensure that their employees and taxes are paid accurately and on schedule. In some cases, business owners may also save money when they consider that a payroll service provider can help them eliminate expensive tax penalties. Payroll service providers generally deliver more than just basic payroll calculations. Most use technology to minimize laborious, administrative tasks for employers and create engaging experiences for employees. Some core capabilities of payroll providers include:",
+        "facility": [
+            {
+                "name": "Accounting & Bookkeeping Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "03",
+        "title": "VAT Services",
+        "img": "https://www.thefinancetoday.net/uploads/shares/VAT-2021-12-31-21-54-35.jpg",
+        "ratings": "5",
+        "price": "300.00",
+        "description": "VAT applies to practically all sales of services and imports, as well as to the sale, barter, exchange, or lease of goods or properties (tangible or intangible). The purpose of VAT is to generate tax revenues to the government similar to the corporate income tax or the personal income tax. The value added to a product by or with a business is the sale price charged to its customer, minus the cost of materials and other taxable inputs.Sporting activities and physical education. Education and training. Some medical treatments. Financial services, insurance and investments.",
+        "facility": [
+            {
+                "name": "Accounting & Bookkeeping Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "06",
+        "title": "Financial Statement",
+        "img": "https://www.freshbooks.com/wp-content/uploads/financial-statements-importance.jpg",
+        "ratings": "5",
+        "price": "1020.00",
+        "description": "Financial statements are written records that convey the business activities and the financial performance of a company. Financial statements are often audited by government agencies, accountants, firms, etc. to ensure accuracy and for tax, financing, or investing purposes. Financial statements are formal records of the financial activities and position of a business, person, or other entity. Relevant financial information is presented in a structured manner and in a form which is easy to understand.",
+        "facility": [
+            {
+                "name": "Accounting & Bookkeeping Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    }
+]

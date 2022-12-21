@@ -7,7 +7,7 @@ import img4 from '../../../assets/hero/hero5.jpg';
 
 const Banner = () => {
     return (
-        <div>
+        <div className="">
             <div className="carousel w-full">
                 <div id="item1" className="carousel-item w-full">
 
@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className="absolute flex justify-start transform -translate-y-1/2 left-24 top-1/6">
 
                     </div>
-                    <div className="absolute flex justify-start transform -translate-y-1/2 left-24 top-1/3">
+                    <div className="hero-content text-center absolute flex justify-start transform -translate-y-1/2 left-24 top-1/3">
                         <h2 className='text-5xl font-bold text-warning'>
                             <h5 className='text-xl font-bold' ><span className='text-red-600'>GCB</span> <span className='text-cyan-500'>ACCOUNTING</span></h5>
                             Supporting You & Your <br />

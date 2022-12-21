@@ -1,12 +1,15 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import { PhotoProvider, PhotoView } from 'react-photo-view'
+import 'react-photo-view/dist/react-photo-view.css';
 import AllRev from '../AllRev/AllRev';
+
 
 const ServiceDetails = () => {
     const { _id, price, ratings, img, title, description } = useLoaderData();
     const { user } = useContext(AuthContext);
-    const [allReviews, setAllReviews] = useState([]);
+    const [service, setService] = useState([]);
 
     const handlePlaceReview = event => {
         event.preventDefault();
@@ -46,16 +49,21 @@ const ServiceDetails = () => {
 
     }
     useEffect(() => {
-        fetch(`https://gcb-accounting-server.vercel.app/reviews?email=${user?.email}`)
+        fetch(`http://localhost:5000/reviews/:id${_id}`)
             .then(res => res.json())
-            .then(data => setAllReviews(data))
+            .then(data => setService(data))
 
     })
 
     return (
         <div>
             <div className="card lg:card-side bg-base-100 shadow-2xl m-6">
-                <img className='w-1/2' src={img} alt="Album" />
+                <PhotoProvider>
+                    <PhotoView src={img}>
+                        <img className='w-1/2' src={img} alt="Album" />
+                    </PhotoView>
+                </PhotoProvider>
+
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
                     <p>{description}</p>
@@ -72,7 +80,7 @@ const ServiceDetails = () => {
                 </div>
             </form>
             {
-                allReviews.map(rvw => <AllRev
+                service.map(rvw => <AllRev
                     key={rvw._id}
                     rvw={rvw}
                 ></AllRev>)

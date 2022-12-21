@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const MyReviewBox = ({ rev, handleDelete }) => {
     const { _id, title, email, serviceName, message, service } = rev;
@@ -11,7 +12,10 @@ const MyReviewBox = ({ rev, handleDelete }) => {
             .then(data => setReviewBox(data));
     }, [service])
 
-
+    const navigate = useNavigate();
+    const handleEdit = (id) => {
+        navigate(`/myreviews/editreview/${id}`)
+    }
 
     return (
         <tr>
@@ -29,7 +33,6 @@ const MyReviewBox = ({ rev, handleDelete }) => {
                             {
                                 reviewBox?.img &&
                                 <img src={reviewBox.img} alt="Service Pic" />}
-
                         </div>
                     </div>
                     <div>
@@ -45,7 +48,7 @@ const MyReviewBox = ({ rev, handleDelete }) => {
             </td>
             <td>{message}</td>
             <th>
-                <button className="btn btn-ghost btn-xs">details</button>
+                <button onClick={() => handleEdit(_id)} className="btn btn-ghost btn-xs">Edit</button>
             </th>
         </tr>
     );

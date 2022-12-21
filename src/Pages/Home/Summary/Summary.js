@@ -2,6 +2,8 @@ import React from 'react';
 import pic1 from '../../../assets/summary/11-removebg-preview.png';
 import pic2 from '../../../assets/summary/12-removebg-preview.png';
 import pic3 from '../../../assets/summary/14-removebg-preview.png';
+import { PhotoProvider, PhotoView } from 'react-photo-view'
+import 'react-photo-view/dist/react-photo-view.css';
 
 const Summary = () => {
     return (
@@ -12,7 +14,12 @@ const Summary = () => {
             <div className="container mx-auto grid grid-cols-1 gap-8 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-3">
                 <div className="flex flex-col items-center mx-12 lg:mx-0">
                     <div>
-                        <img className='h-36 w-32' src={pic1} alt='' />
+                        <PhotoProvider>
+                            <PhotoView src={pic1}>
+                                <img className='h-36 w-32' src={pic1} alt='' />
+                            </PhotoView>
+                        </PhotoProvider>
+
                     </div>
                     <div className="relative text-center">
                         <h1 className='text-3xl'>Business Services.</h1>
@@ -23,7 +30,12 @@ const Summary = () => {
                 </div>
                 <div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
                     <div>
-                        <img className='h-36 w-32' src={pic2} alt='' />
+                        <PhotoProvider>
+                            <PhotoView src={pic2}>
+                                <img className='h-36 w-32' src={pic2} alt='' />
+                            </PhotoView>
+                        </PhotoProvider>
+
                     </div>
                     <div className="relative text-center">
                         <h1 className='text-3xl'>Individual Services.</h1>
@@ -34,7 +46,12 @@ const Summary = () => {
                 </div>
                 <div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
                     <div>
-                        <img className='h-36 w-32' src={pic3} alt='' />
+                        <PhotoProvider>
+                            <PhotoView src={pic3}>
+                                <img className='h-36 w-32' src={pic3} alt='' />
+                            </PhotoView>
+                        </PhotoProvider>
+
                     </div>
                     <div className="relative text-center">
                         <h1 className='text-3xl'>Valuation Services.</h1>

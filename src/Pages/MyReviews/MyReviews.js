@@ -5,16 +5,16 @@ import MyReviewBox from '../Home/Home/MyReviewBox/MyReviewBox';
 const MyReviews = () => {
     const { user } = useContext(AuthContext);
     const [reviews, setReviews] = useState([]);
+    console.log(user?.id)
 
     useEffect(() => {
         fetch(`https://gcb-accounting-server.vercel.app/reviews?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setReviews(data))
-
     }, [user?.email])
 
     const handleDelete = id => {
-        const proceed = window.confirm('Are you sure to delete this review?');
+        const proceed = window.confirm('Are You Sure To Delete this Review');
         if (proceed) {
             fetch(`https://gcb-accounting-server.vercel.app/reviews/${id}`, {
                 method: 'DELETE'
@@ -59,12 +59,7 @@ const MyReviews = () => {
                                 handleDelete={handleDelete}
                             ></MyReviewBox>)
                         }
-
-
                     </tbody>
-
-
-
                 </table>
             </div>
         </div>
